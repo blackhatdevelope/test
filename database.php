@@ -16,7 +16,7 @@ class DataBase{
             // set the PDO error mode to exception
             $this->connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         }catch (Exception $exception){
-            echo $exception->getMessage();
+         
         }
     }
 
