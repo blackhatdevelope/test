@@ -1,0 +1,78 @@
+@font-face {
+    font-family:'iran-yekan';
+    src: url('../fonts/IRANYekanRegular.ttf');
+}
+@font-face {
+    font-family:'iran-sans';
+    src: url('../fonts/IRANSans.ttf');
+}
+
+body{
+    font-family: iran-sans;
+}
+.header{
+    width: 100%;
+}
+.header-inner{
+    height: 80px;
+    box-shadow: 0 3px 5px rgba(0,0,0,.2);
+    background: #fff;
+    position: relative;
+    z-index: 1000;
+}
+.menu{
+    background-color: #d50000;
+    height: 55px;
+    position: relative;
+    width: 100%;
+    z-index: 1005;
+}
+.header_logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+    position: relative;
+    height: 80px;
+}
+.header-main-logo {
+    height: 50px;
+    margin: 15px;
+    float: right;
+}
+.ft-18{
+    font-size: 1.4rem;
+}
+.ft-35{
+    font-size: 2.5rem;
+}
+.header-back {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 600px;
+    text-align: right;
+    background: url('../images/header-map.png') top left no-repeat;
+    background-size: auto ,contain;
+}
+.menu-rel{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+}
+ul>li>a.nav-link{
+    color: #e0d8d8 !important;
+}
+ul>li>a.nav-link:hover{
+    color: #fff !important;
+}
+ul>li.nav-item{
+    padding-left: 10px;
+}
+.main_site {
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
